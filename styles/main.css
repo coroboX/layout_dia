@@ -546,6 +546,94 @@ h3 {
   .expert:nth-child(3) .expert__quote {
     color: #f25656; }
 
+.apply {
+  height: 888px;
+  padding-top: 200px;
+  text-align: center;
+  background-color: #fff;
+  position: relative; }
+  .apply__title {
+    font-size: 52px;
+    color: #253757;
+    margin-bottom: 24px; }
+  .apply__text {
+    color: #6c788b;
+    font-size: 24px;
+    width: 47%;
+    min-width: 352px;
+    margin: 0 auto 64px; }
+  .apply__button {
+    font-family: "Poppins-SemiBold", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+    width: 226px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 25px;
+    background-color: #ff9c8e; }
+  .apply__decoration {
+    position: absolute;
+    width: 10vw;
+    height: 4vw;
+    border-radius: 3vw;
+    -webkit-transform: rotate(-65.1deg);
+            transform: rotate(-65.1deg); }
+    .apply__decoration:nth-child(1) {
+      border: 5px solid #03d542;
+      top: 48vw;
+      left: 76vw; }
+    .apply__decoration:nth-child(2) {
+      border: 5px solid #56ccf2;
+      top: 18vw;
+      left: 32vw; }
+    .apply__decoration:nth-child(3) {
+      border: 5px solid #bc04fc;
+      top: 15vw;
+      left: 5vw; }
+    .apply__decoration:nth-child(4) {
+      border: 5px solid #f25656;
+      top: 5vw;
+      left: 15vw; }
+    .apply__decoration:nth-child(5) {
+      border: 5px solid #fcc304;
+      top: 33vw;
+      left: 10vw; }
+    .apply__decoration:nth-child(6) {
+      border: 5px solid #03d542;
+      top: 20vw;
+      left: 70vw; }
+    .apply__decoration:nth-child(7) {
+      border: 5px solid #fcc304;
+      top: 15vw;
+      left: 20vw; }
+    .apply__decoration:nth-child(8) {
+      border: 5px solid #56ccf2;
+      top: 80vw;
+      left: 70vw; }
+    .apply__decoration:nth-child(9) {
+      border: 5px solid #bc04fc;
+      top: 33vw;
+      left: 10vw; }
+    .apply__decoration:nth-child(10) {
+      border: 5px solid #fcc304;
+      top: 65vw;
+      left: 40vw; }
+    .apply__decoration:nth-child(11) {
+      border: 5px solid #f25656;
+      top: 65vw;
+      left: 40vw; }
+    .apply__decoration:nth-child(12) {
+      border: 5px solid #bc04fc;
+      top: 35vw;
+      left: 25vw; }
+
+.m {
+  width: 6vw;
+  height: 2vw;
+  border-radius: 2vw; }
+
 html {
   font-family: "OpenSans-Regular", Arial, Helvetica, sans-serif;
   font-size: 14px;
