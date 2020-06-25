@@ -641,10 +641,21 @@ textarea,
        object-position: center;
     border-radius: 200px 0 0; }
   @media (max-width: 600px) {
-    .approach__pic {
-      display: none; }
-    .approach__descr {
-      text-align: right; } }
+    .approach {
+      margin-left: 10px;
+      padding-left: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .approach__article {
+        padding-right: 20px; }
+      .approach__pic {
+        display: none; }
+      .approach__descr {
+        text-align: right; } }
 
 .testimonials {
   max-width: 1152px;
